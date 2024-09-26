@@ -1,0 +1,6 @@
+C:/Users/g-vid/3823B1PR2/3823B1PR2/lab1_bitset/Viderman/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/g-vid/3823B1PR2/3823B1PR2/lab1_bitset/Viderman/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/g-vid/3823B1PR2/3823B1PR2/lab1_bitset/Viderman/build/src/CMakeFiles/set.dir
+C:/Users/g-vid/3823B1PR2/3823B1PR2/lab1_bitset/Viderman/build/samples/CMakeFiles/sample_prime_numbers.dir
+C:/Users/g-vid/3823B1PR2/3823B1PR2/lab1_bitset/Viderman/build/gtest/CMakeFiles/gtest.dir
+C:/Users/g-vid/3823B1PR2/3823B1PR2/lab1_bitset/Viderman/build/test/CMakeFiles/test_set.dir

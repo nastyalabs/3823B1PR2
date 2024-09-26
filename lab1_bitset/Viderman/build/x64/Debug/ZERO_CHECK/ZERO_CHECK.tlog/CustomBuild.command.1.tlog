@@ -1,0 +1,10 @@
+^C:\USERS\G-VID\3823B1PR2\3823B1PR2\LAB1_BITSET\VIDERMAN\BUILD\CMAKEFILES\3744CD994410E5A3916F03A92D59321B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/g-vid/3823B1PR2/3823B1PR2/lab1_bitset/template -BC:/Users/g-vid/3823B1PR2/3823B1PR2/lab1_bitset/Viderman/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/g-vid/3823B1PR2/3823B1PR2/lab1_bitset/Viderman/build/set.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

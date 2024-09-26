@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/g-vid/3823B1PR2/3823B1PR2/lab1_bitset/template/src/CMakeLists.txt
+CUSTOMBUILD : warning : Environment variable CMAKE_GENERATOR_TOOLSET will be ignored, because CMAKE_GENERATOR is not set.
+  tbitfield.cpp
+  tset.cpp
+  Создание кода...
+  set.vcxproj -> C:\Users\g-vid\3823B1PR2\3823B1PR2\lab1_bitset\Viderman\build\lib\Debug\set.lib

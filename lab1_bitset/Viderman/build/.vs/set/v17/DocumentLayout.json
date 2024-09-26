@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\g-vid\\3823B1PR2\\3823B1PR2\\lab1_bitset\\Viderman\\build\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C995E32-2F0A-3E58-A746-BEA815DBAF9A}|src\\set.vcxproj|C:\\Users\\g-vid\\3823B1PR2\\3823B1PR2\\lab1_bitset\\template\\src\\tset.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C995E32-2F0A-3E58-A746-BEA815DBAF9A}|src\\set.vcxproj|C:\\Users\\g-vid\\3823B1PR2\\3823B1PR2\\lab1_bitset\\template\\src\\tbitfield.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "tbitfield.cpp",
+              "DocumentMoniker": "C:\\Users\\g-vid\\3823B1PR2\\3823B1PR2\\lab1_bitset\\template\\src\\tbitfield.cpp",
+              "RelativeDocumentMoniker": "..\\..\\template\\src\\tbitfield.cpp",
+              "ToolTip": "C:\\Users\\g-vid\\3823B1PR2\\3823B1PR2\\lab1_bitset\\template\\src\\tbitfield.cpp",
+              "RelativeToolTip": "..\\..\\template\\src\\tbitfield.cpp",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAAAJ4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T06:30:46.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tset.cpp",
+              "DocumentMoniker": "C:\\Users\\g-vid\\3823B1PR2\\3823B1PR2\\lab1_bitset\\template\\src\\tset.cpp",
+              "RelativeDocumentMoniker": "..\\..\\template\\src\\tset.cpp",
+              "ToolTip": "C:\\Users\\g-vid\\3823B1PR2\\3823B1PR2\\lab1_bitset\\template\\src\\tset.cpp",
+              "RelativeToolTip": "..\\..\\template\\src\\tset.cpp",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAYwIMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T06:30:17.099Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

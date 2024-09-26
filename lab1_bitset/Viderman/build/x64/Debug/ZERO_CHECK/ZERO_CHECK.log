@@ -1,0 +1,2 @@
+﻿  1>Checking Build System
+CUSTOMBUILD : warning : Environment variable CMAKE_GENERATOR_TOOLSET will be ignored, because CMAKE_GENERATOR is not set.
