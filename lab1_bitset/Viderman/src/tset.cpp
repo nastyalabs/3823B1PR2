@@ -6,12 +6,12 @@
 // Множество - реализация через битовые поля
 
 #include "tset.h"
-
+using namespace std;
 
 // Конструктор с максимальной мощностью множества
 TSet::TSet(int mp) : BitField(mp)
 {
-    if (mp < 0) throw std::invalid_argument("Отрицательная длина");
+    if (mp < 0) throw ("Отрицательная длина");
     MaxPower = mp;
 }
 
@@ -42,21 +42,21 @@ int TSet::GetMaxPower(void) const
 // Проверка, является ли элемент членом множества
 int TSet::IsMember(const int Elem) const
 {
-    if (Elem < 0 || Elem >= MaxPower) throw std::out_of_range("Некорректный элемент");
+    if (Elem < 0 || Elem >= MaxPower) throw ("Некорректный элемент");
     return BitField.GetBit(Elem);
 }
 
 // Включение элемента в множество
 void TSet::InsElem(const int Elem)
 {
-    if (Elem < 0 || Elem >= MaxPower) throw std::out_of_range("Некорректный элемент");
+    if (Elem < 0 || Elem >= MaxPower) throw ("Некорректный элемент");
     BitField.SetBit(Elem);
 }
 
 // Исключение элемента из множества
 void TSet::DelElem(const int Elem)
 {
-    if (Elem < 0 || Elem >= MaxPower) throw std::out_of_range("Некорректный элемент");
+    if (Elem < 0 || Elem >= MaxPower) throw ("Некорректный элемент");
     BitField.ClrBit(Elem);
 }
 
@@ -86,7 +86,7 @@ int TSet::operator!=(const TSet& s) const
 // Объединение множеств
 TSet TSet::operator+(const TSet& s)
 {
-    int maxPower = std::max(MaxPower, s.MaxPower);
+    int maxPower = max(MaxPower, s.MaxPower);
     TSet result(maxPower);
     result.BitField = BitField | s.BitField;
     return result;
@@ -95,7 +95,7 @@ TSet TSet::operator+(const TSet& s)
 // Объединение множества с элементом
 TSet TSet::operator+(const int Elem)
 {
-    if (Elem < 0 || Elem >= MaxPower) throw std::out_of_range("Некорректный элемент");
+    if (Elem < 0 || Elem >= MaxPower) throw ("Некорректный элемент");
     TSet result(*this);
     result.InsElem(Elem);
     return result;
@@ -104,7 +104,7 @@ TSet TSet::operator+(const int Elem)
 // Разность множества с элементом
 TSet TSet::operator-(const int Elem)
 {
-    if (Elem < 0 || Elem >= MaxPower) throw std::out_of_range("Некорректный элемент");
+    if (Elem < 0 || Elem >= MaxPower) throw ("Некорректный элемент");
     TSet result(*this);
     result.DelElem(Elem);
     return result;
@@ -113,7 +113,7 @@ TSet TSet::operator-(const int Elem)
 // Пересечение множеств
 TSet TSet::operator*(const TSet& s)
 {
-    int maxPower = std::max(MaxPower, s.MaxPower);
+    int maxPower = max(MaxPower, s.MaxPower);
     TSet result(maxPower);
     result.BitField = BitField & s.BitField;
     return result;

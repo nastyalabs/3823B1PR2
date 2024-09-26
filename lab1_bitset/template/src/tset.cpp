@@ -7,82 +7,149 @@
 
 #include "tset.h"
 
-TSet::TSet(int mp) : BitField(-1)
+
+// Конструктор с максимальной мощностью множества
+TSet::TSet(int mp) : BitField(mp)
 {
+    if (mp < 0) throw std::invalid_argument("Отрицательная длина");
+    MaxPower = mp;
 }
 
-// конструктор копирования
-TSet::TSet(const TSet& s) : BitField(-1)
+// Конструктор копирования
+TSet::TSet(const TSet& s) : BitField(s.BitField)
 {
+    MaxPower = s.MaxPower;
 }
 
-// конструктор преобразования типа
-TSet::TSet(const TBitField& bf) : BitField(-1)
+// Конструктор преобразования типа (из битового поля)
+TSet::TSet(const TBitField& bf) : BitField(bf)
 {
+    MaxPower = bf.GetLength();
 }
 
+// Оператор преобразования множества в битовое поле
 TSet::operator TBitField()
 {
+    return BitField;
 }
 
-int TSet::GetMaxPower(void) const // получить макс. к-во эл-тов
+// Получение максимальной мощности множества
+int TSet::GetMaxPower(void) const
 {
+    return MaxPower;
 }
 
-int TSet::IsMember(const int Elem) const // элемент множества?
+// Проверка, является ли элемент членом множества
+int TSet::IsMember(const int Elem) const
 {
-    return 0;
+    if (Elem < 0 || Elem >= MaxPower) throw ("Некорректный элемент");
+    return BitField.GetBit(Elem);
 }
 
-void TSet::InsElem(const int Elem) // включение элемента множества
+// Включение элемента в множество
+void TSet::InsElem(const int Elem)
 {
+    if (Elem < 0 || Elem >= MaxPower) throw ("Некорректный элемент");
+    BitField.SetBit(Elem);
 }
 
-void TSet::DelElem(const int Elem) // исключение элемента множества
+// Исключение элемента из множества
+void TSet::DelElem(const int Elem)
 {
+    if (Elem < 0 || Elem >= MaxPower) throw ("Некорректный элемент");
+    BitField.ClrBit(Elem);
 }
 
-// теоретико-множественные операции
-
-TSet& TSet::operator=(const TSet& s) // присваивание
+// Оператор присваивания
+TSet& TSet::operator=(const TSet& s)
 {
+    if (this != &s)
+    {
+        MaxPower = s.MaxPower;
+        BitField = s.BitField;
+    }
+    return *this;
 }
 
-int TSet::operator==(const TSet& s) const // сравнение
+// Оператор сравнения на равенство
+int TSet::operator==(const TSet& s) const
 {
-    return 0;
+    return (MaxPower == s.MaxPower && BitField == s.BitField);
 }
 
-int TSet::operator!=(const TSet& s) const // сравнение
+// Оператор сравнения на неравенство
+int TSet::operator!=(const TSet& s) const
 {
+    return !(*this == s);
 }
 
-TSet TSet::operator+(const TSet& s) // объединение
+// Объединение множеств
+TSet TSet::operator+(const TSet& s)
 {
+    int maxPower = std::max(MaxPower, s.MaxPower);
+    TSet result(maxPower);
+    result.BitField = BitField | s.BitField;
+    return result;
 }
 
-TSet TSet::operator+(const int Elem) // объединение с элементом
+// Объединение множества с элементом
+TSet TSet::operator+(const int Elem)
 {
+    if (Elem < 0 || Elem >= MaxPower) throw ("Некорректный элемент");
+    TSet result(*this);
+    result.InsElem(Elem);
+    return result;
 }
 
-TSet TSet::operator-(const int Elem) // разность с элементом
+// Разность множества с элементом
+TSet TSet::operator-(const int Elem)
 {
+    if (Elem < 0 || Elem >= MaxPower) throw ("Некорректный элемент");
+    TSet result(*this);
+    result.DelElem(Elem);
+    return result;
 }
 
-TSet TSet::operator*(const TSet& s) // пересечение
+// Пересечение множеств
+TSet TSet::operator*(const TSet& s)
 {
+    int maxPower = std::max(MaxPower, s.MaxPower);
+    TSet result(maxPower);
+    result.BitField = BitField & s.BitField;
+    return result;
 }
 
-TSet TSet::operator~(void) // дополнение
+// Дополнение множества
+TSet TSet::operator~(void)
 {
+    TSet result(MaxPower);
+    result.BitField = ~BitField;
+    return result;
 }
 
-// перегрузка ввода/вывода
-
-istream& operator>>(istream& istr, TSet& s) // ввод
+// Перегрузка ввода
+istream& operator>>(istream& istr, TSet& s)
 {
+    int elem;
+    while (istr >> elem)
+    {
+        if (elem >= 0 && elem < s.MaxPower)
+        {
+            s.InsElem(elem);
+        }
+    }
+    return istr;
 }
 
-ostream& operator<<(ostream& ostr, const TSet& s) // вывод
+// Перегрузка вывода
+ostream& operator<<(ostream& ostr, const TSet& s)
 {
+    for (int i = 0; i < s.MaxPower; i++)
+    {
+        if (s.IsMember(i))
+        {
+            ostr << i;
+        }
+    }
+    return ostr;
 }
