@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "/home/aleksey/3823B1PR2/lab1_bitset/template"
+    "cmake.sourceDirectory": "/home/aleksey/3823B1PR2/lab1_bitset/template",
+    "C_Cpp.errorSquiggles": "disabled"
 }
