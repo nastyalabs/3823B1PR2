@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/aleksey/3823B1PR2/build/src",
+  "command": "/usr/bin/g++  -I/home/aleksey/3823B1PR2/lab1_bitset/template/include -I/home/aleksey/3823B1PR2/lab1_bitset/template/gtest -g -o CMakeFiles/set.dir/tbitfield.cpp.o -c /home/aleksey/3823B1PR2/lab1_bitset/template/src/tbitfield.cpp",
+  "file": "/home/aleksey/3823B1PR2/lab1_bitset/template/src/tbitfield.cpp"
+},
+{
+  "directory": "/home/aleksey/3823B1PR2/build/src",
+  "command": "/usr/bin/g++  -I/home/aleksey/3823B1PR2/lab1_bitset/template/include -I/home/aleksey/3823B1PR2/lab1_bitset/template/gtest -g -o CMakeFiles/set.dir/tset.cpp.o -c /home/aleksey/3823B1PR2/lab1_bitset/template/src/tset.cpp",
+  "file": "/home/aleksey/3823B1PR2/lab1_bitset/template/src/tset.cpp"
+},
+{
+  "directory": "/home/aleksey/3823B1PR2/build/samples",
+  "command": "/usr/bin/g++  -I/home/aleksey/3823B1PR2/lab1_bitset/template/include -I/home/aleksey/3823B1PR2/lab1_bitset/template/gtest -g -o CMakeFiles/sample_prime_numbers.dir/sample_prime_numbers.cpp.o -c /home/aleksey/3823B1PR2/lab1_bitset/template/samples/sample_prime_numbers.cpp",
+  "file": "/home/aleksey/3823B1PR2/lab1_bitset/template/samples/sample_prime_numbers.cpp"
+},
+{
+  "directory": "/home/aleksey/3823B1PR2/build/gtest",
+  "command": "/usr/bin/g++  -I/home/aleksey/3823B1PR2/lab1_bitset/template/include -I/home/aleksey/3823B1PR2/lab1_bitset/template/gtest -g -o CMakeFiles/gtest.dir/gtest-all.cc.o -c /home/aleksey/3823B1PR2/lab1_bitset/template/gtest/gtest-all.cc",
+  "file": "/home/aleksey/3823B1PR2/lab1_bitset/template/gtest/gtest-all.cc"
+},
+{
+  "directory": "/home/aleksey/3823B1PR2/build/test",
+  "command": "/usr/bin/g++  -I/home/aleksey/3823B1PR2/lab1_bitset/template/include -I/home/aleksey/3823B1PR2/lab1_bitset/template/gtest -I/home/aleksey/3823B1PR2/lab1_bitset/template/test/../3rdparty -g -o CMakeFiles/test_set.dir/test_main.cpp.o -c /home/aleksey/3823B1PR2/lab1_bitset/template/test/test_main.cpp",
+  "file": "/home/aleksey/3823B1PR2/lab1_bitset/template/test/test_main.cpp"
+},
+{
+  "directory": "/home/aleksey/3823B1PR2/build/test",
+  "command": "/usr/bin/g++  -I/home/aleksey/3823B1PR2/lab1_bitset/template/include -I/home/aleksey/3823B1PR2/lab1_bitset/template/gtest -I/home/aleksey/3823B1PR2/lab1_bitset/template/test/../3rdparty -g -o CMakeFiles/test_set.dir/test_tbitfield.cpp.o -c /home/aleksey/3823B1PR2/lab1_bitset/template/test/test_tbitfield.cpp",
+  "file": "/home/aleksey/3823B1PR2/lab1_bitset/template/test/test_tbitfield.cpp"
+},
+{
+  "directory": "/home/aleksey/3823B1PR2/build/test",
+  "command": "/usr/bin/g++  -I/home/aleksey/3823B1PR2/lab1_bitset/template/include -I/home/aleksey/3823B1PR2/lab1_bitset/template/gtest -I/home/aleksey/3823B1PR2/lab1_bitset/template/test/../3rdparty -g -o CMakeFiles/test_set.dir/test_tset.cpp.o -c /home/aleksey/3823B1PR2/lab1_bitset/template/test/test_tset.cpp",
+  "file": "/home/aleksey/3823B1PR2/lab1_bitset/template/test/test_tset.cpp"
+}
+]
