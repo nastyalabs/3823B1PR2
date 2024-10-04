@@ -12,7 +12,7 @@
 
 using namespace std;
 
-typedef unsigned int TELEM;
+typedef unsigned char TELEM;
 
 class TBitField
 {
@@ -20,6 +20,8 @@ private:
   int  BitLen; // длина битового поля - макс. к-во битов, кол-во элементов в множестве
   TELEM *pMem; // память для представления битового поля, наш массив
   int  MemLen; // к-во эл-тов Мем для представления бит.поля, количество эл-тов в массиве
+  int bit = 8; // кол-во битов в одном элементе TELEM
+	int raz = 3; // кол-во разрядов в одном элементе TELEM
 
   // методы реализации
   int   GetMemIndex(const int n) const; // индекс в pМем для бита n       (#О2)
