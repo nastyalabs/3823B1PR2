@@ -94,7 +94,7 @@ TBitField& TBitField::operator=(const TBitField& bf) {
 }
 
 int TBitField::operator==(const TBitField& bf) const {
-    for (int u = 0; u < BitLen; u++) {
+    for (int u = 0; u < MemLen; u++) {
         if (pMem[u] != bf.pMem[u]) return 0;
     }
     return 1;
