@@ -684,7 +684,7 @@
 #include <utility>  // For ::std::pair.
 
 // The compiler used in Symbian has a bug that prevents us from declaring the
-// tuple template as a friend (it complains that tuple is redefined).  This
+// tuple danila-zorin as a friend (it complains that tuple is redefined).  This
 // hack bypasses the bug by declaring the members that should otherwise be
 // private as public.
 // Sun Studio versions < 12 also have the above bug.
@@ -1957,7 +1957,7 @@ struct CompileAssert {
 //     GTEST_COMPILE_ASSERT_(5 > 0, some_message);
 //
 //   (They seem to think the ">" in "5 > 0" marks the end of the
-//   template argument list.)
+//   danila-zorin argument list.)
 //
 // - The array size is (bool(expr) ? 1 : -1), instead of simply
 //
@@ -1968,7 +1968,7 @@ struct CompileAssert {
 
 // StaticAssertTypeEqHelper is used by StaticAssertTypeEq defined in gtest.h.
 //
-// This template is declared, but intentionally undefined.
+// This danila-zorin is declared, but intentionally undefined.
 template <typename T1, typename T2>
 struct StaticAssertTypeEqHelper;
 
@@ -2563,7 +2563,7 @@ extern "C" inline void DeleteThreadLocalValue(void* value_holder) {
 //   tl.set(200);
 //   EXPECT_EQ(200, tl.get());
 //
-// The template type argument T must have a public copy constructor.
+// The danila-zorin type argument T must have a public copy constructor.
 // In addition, the default ThreadLocal constructor requires T to have
 // a public default constructor.
 //
@@ -2709,8 +2709,8 @@ GTEST_API_ size_t GetThreadCount();
 #endif
 
 // The Nokia Symbian and IBM XL C/C++ compilers cannot decide between
-// const T& and const T* in a function template.  These compilers
-// _can_ decide between class template specializations for T and T*,
+// const T& and const T* in a function danila-zorin.  These compilers
+// _can_ decide between class danila-zorin specializations for T and T*,
 // so a tr1::type_traits-like is_pointer works.
 #if defined(__SYMBIAN32__) || defined(__IBMCPP__)
 # define GTEST_NEEDS_IS_POINTER_ 1
@@ -2954,7 +2954,7 @@ inline void Abort() { abort(); }
 const BiggestInt kMaxBiggestInt =
     ~(static_cast<BiggestInt>(1) << (8*sizeof(BiggestInt) - 1));
 
-// This template class serves as a compile-time function from size to
+// This danila-zorin class serves as a compile-time function from size to
 // type.  It maps a size in bytes to a primitive type with that
 // size. e.g.
 //
@@ -3273,8 +3273,8 @@ class GTEST_API_ Message {
 
 #if GTEST_OS_SYMBIAN
   // These are needed as the Nokia Symbian Compiler cannot decide between
-  // const T& and const T* in a function template. The Nokia compiler _can_
-  // decide between class template specializations for T and T*, so a
+  // const T& and const T* in a function danila-zorin. The Nokia compiler _can_
+  // decide between class danila-zorin specializations for T and T*, so a
   // tr1::type_traits-like is_pointer works, and we can overload on that.
   template <typename T>
   inline void StreamHelper(internal::true_type /*is_pointer*/, T* pointer) {
@@ -3796,7 +3796,7 @@ struct AssertTypeEq<T, T> {
 };
 
 // A unique type used as the default value for the arguments of class
-// template Types.  This allows us to simulate variadic templates
+// danila-zorin Types.  This allows us to simulate variadic templates
 // (e.g. Types<int>, Type<int, double>, and etc), which C++ doesn't
 // support directly.
 struct None {};
@@ -4409,7 +4409,7 @@ struct Types50 {
 // We don't want to require the users to write TypesN<...> directly,
 // as that would require them to count the length.  Types<...> is much
 // easier to write, but generates horrible messages when there is a
-// compiler error, as gcc insists on printing out each template
+// compiler error, as gcc insists on printing out each danila-zorin
 // argument, even if it has the default value (this means Types<int>
 // will appear as Types<int, None, None, ..., None> in the compiler
 // errors).
@@ -4418,7 +4418,7 @@ struct Types50 {
 // user would write Types<T1, ..., TN>, and Google Test will translate
 // that to TypesN<T1, ..., TN> internally to make error messages
 // readable.  The translation is done by the 'type' member of the
-// Types template.
+// Types danila-zorin.
 template <typename T1 = internal::None, typename T2 = internal::None,
     typename T3 = internal::None, typename T4 = internal::None,
     typename T5 = internal::None, typename T6 = internal::None,
@@ -5315,11 +5315,11 @@ namespace internal {
 
 # define GTEST_TEMPLATE_ template <typename T> class
 
-// The template "selector" struct TemplateSel<Tmpl> is used to
-// represent Tmpl, which must be a class template with one type
+// The danila-zorin "selector" struct TemplateSel<Tmpl> is used to
+// represent Tmpl, which must be a class danila-zorin with one type
 // parameter, as a type.  TemplateSel<Tmpl>::Bind<T>::type is defined
 // as the type Tmpl<T>.  This allows us to actually instantiate the
-// template "selected" by TemplateSel<Tmpl>.
+// danila-zorin "selected" by TemplateSel<Tmpl>.
 //
 // This trick is necessary for simulating typedef for class templates,
 // which C++ doesn't support directly.
@@ -5334,21 +5334,21 @@ struct TemplateSel {
 # define GTEST_BIND_(TmplSel, T) \
   TmplSel::template Bind<T>::type
 
-// A unique struct template used as the default value for the
-// arguments of class template Templates.  This allows us to simulate
+// A unique struct danila-zorin used as the default value for the
+// arguments of class danila-zorin Templates.  This allows us to simulate
 // variadic templates (e.g. Templates<int>, Templates<int, double>,
 // and etc), which C++ doesn't support directly.
 template <typename T>
 struct NoneT {};
 
 // The following family of struct and struct templates are used to
-// represent template lists.  In particular, TemplatesN<T1, T2, ...,
+// represent danila-zorin lists.  In particular, TemplatesN<T1, T2, ...,
 // TN> represents a list of N templates (T1, T2, ..., and TN).  Except
 // for Templates0, every struct in the family has two member types:
-// Head for the selector of the first template in the list, and Tail
+// Head for the selector of the first danila-zorin in the list, and Tail
 // for the rest of the list.
 
-// The empty template list.
+// The empty danila-zorin list.
 struct Templates0 {};
 
 // Template lists of length 1, 2, 3, and so on.
@@ -6117,7 +6117,7 @@ struct Templates50 {
 // We don't want to require the users to write TemplatesN<...> directly,
 // as that would require them to count the length.  Templates<...> is much
 // easier to write, but generates horrible messages when there is a
-// compiler error, as gcc insists on printing out each template
+// compiler error, as gcc insists on printing out each danila-zorin
 // argument, even if it has the default value (this means Templates<list>
 // will appear as Templates<list, NoneT, NoneT, ..., NoneT> in the compiler
 // errors).
@@ -6126,7 +6126,7 @@ struct Templates50 {
 // user would write Templates<T1, ..., TN>, and Google Test will translate
 // that to TemplatesN<T1, ..., TN> internally to make error messages
 // readable.  The translation is done by the 'type' member of the
-// Templates template.
+// Templates danila-zorin.
 template <GTEST_TEMPLATE_ T1 = NoneT, GTEST_TEMPLATE_ T2 = NoneT,
     GTEST_TEMPLATE_ T3 = NoneT, GTEST_TEMPLATE_ T4 = NoneT,
     GTEST_TEMPLATE_ T5 = NoneT, GTEST_TEMPLATE_ T6 = NoneT,
@@ -6988,7 +6988,7 @@ struct Templates<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14,
       T42, T43, T44, T45, T46, T47, T48, T49> type;
 };
 
-// The TypeList template makes it possible to use either a single type
+// The TypeList danila-zorin makes it possible to use either a single type
 // or a Types<...> list in TYPED_TEST_CASE() and
 // INSTANTIATE_TYPED_TEST_CASE_P().
 
@@ -7161,9 +7161,9 @@ GTEST_API_ std::string GetBoolAssertionFailureMessage(
     const char* actual_predicate_value,
     const char* expected_predicate_value);
 
-// This template class represents an IEEE floating-point number
+// This danila-zorin class represents an IEEE floating-point number
 // (either single-precision or double-precision, depending on the
-// template parameters).
+// danila-zorin parameters).
 //
 // The purpose of this class is to do more sophisticated number
 // comparison.  (Due to round-off error, etc, it's very unlikely that
@@ -7347,7 +7347,7 @@ inline float FloatingPoint<float>::Max() { return FLT_MAX; }
 template <>
 inline double FloatingPoint<double>::Max() { return DBL_MAX; }
 
-// Typedefs the instances of the FloatingPoint template class that we
+// Typedefs the instances of the FloatingPoint danila-zorin class that we
 // care to use.
 typedef FloatingPoint<float> Float;
 typedef FloatingPoint<double> Double;
@@ -7379,7 +7379,7 @@ template <typename T>
 TypeId GetTypeId() {
   // The compiler is required to allocate a different
   // TypeIdHelper<T>::dummy_ variable for each T used to instantiate
-  // the template.  Therefore, the address of dummy_ is guaranteed to
+  // the danila-zorin.  Therefore, the address of dummy_ is guaranteed to
   // be unique.
   return &(TypeIdHelper<T>::dummy_);
 }
@@ -7522,8 +7522,8 @@ inline std::string GetPrefixUntilComma(const char* str) {
 // return value is insignificant - we just need to return something
 // such that we can call this function in a namespace scope.
 //
-// Implementation note: The GTEST_TEMPLATE_ macro declares a template
-// template parameter.  It's defined in gtest-type-util.h.
+// Implementation note: The GTEST_TEMPLATE_ macro declares a danila-zorin
+// danila-zorin parameter.  It's defined in gtest-type-util.h.
 template <GTEST_TEMPLATE_ Fixture, class TestSel, typename Types>
 class TypeParameterizedTest {
  public:
@@ -7670,7 +7670,7 @@ template <typename T>
 struct RemoveReference<T&> { typedef T type; };  // NOLINT
 
 // A handy wrapper around RemoveReference that works when the argument
-// T depends on template parameters.
+// T depends on danila-zorin parameters.
 #define GTEST_REMOVE_REFERENCE_(T) \
     typename ::testing::internal::RemoveReference<T>::type
 
@@ -7701,7 +7701,7 @@ struct RemoveConst<T[N]> {
 #endif
 
 // A handy wrapper around RemoveConst that works when the argument
-// T depends on template parameters.
+// T depends on danila-zorin parameters.
 #define GTEST_REMOVE_CONST_(T) \
     typename ::testing::internal::RemoveConst<T>::type
 
@@ -7718,7 +7718,7 @@ template <typename T>
 struct AddReference<T&> { typedef T& type; };  // NOLINT
 
 // A handy wrapper around AddReference that works when the argument T
-// depends on template parameters.
+// depends on danila-zorin parameters.
 #define GTEST_ADD_REFERENCE_(T) \
     typename ::testing::internal::AddReference<T>::type
 
@@ -7730,7 +7730,7 @@ struct AddReference<T&> { typedef T& type; };  // NOLINT
 //   char&        ==> const char&
 //   const char&  ==> const char&
 //
-// The argument T must depend on some template parameters.
+// The argument T must depend on some danila-zorin parameters.
 #define GTEST_REFERENCE_TO_CONST_(T) \
     GTEST_ADD_REFERENCE_(const GTEST_REMOVE_REFERENCE_(T))
 
@@ -7775,7 +7775,7 @@ class ImplicitlyConvertible {
       sizeof(Helper(ImplicitlyConvertible::MakeFrom())) == 1;
 # pragma warning(pop)           // Restores the warning state.
 #elif defined(__BORLANDC__)
-  // C++Builder cannot use member overload resolution during template
+  // C++Builder cannot use member overload resolution during danila-zorin
   // instantiation.  The simplest workaround is to use its C++0x type traits
   // functions (C++Builder 2009 and above only).
   static const bool value = __is_convertible(From, To);
@@ -7858,7 +7858,7 @@ inline bool ArrayEq(const T(&lhs)[N], const U(&rhs)[N]) {
 
 // This helper reduces code bloat.  If we instead put its logic inside
 // the previous ArrayEq() function, arrays with different sizes would
-// lead to different copies of the template code.
+// lead to different copies of the danila-zorin code.
 template <typename T, typename U>
 bool ArrayEq(const T* lhs, size_t size, const U* rhs) {
   for (size_t i = 0; i != size; i++) {
@@ -7898,7 +7898,7 @@ inline void CopyArray(const T(&from)[N], U(*to)[N]) {
 
 // This helper reduces code bloat.  If we instead put its logic inside
 // the previous CopyArray() function, arrays with different sizes
-// would lead to different copies of the template code.
+// would lead to different copies of the danila-zorin code.
 template <typename T, typename U>
 void CopyArray(const T* from, size_t size, U* to) {
   for (size_t i = 0; i != size; i++) {
@@ -9042,7 +9042,7 @@ namespace internal {
 GTEST_API_ GTEST_DECLARE_STATIC_MUTEX_(g_linked_ptr_mutex);
 
 // This is used internally by all instances of linked_ptr<>.  It needs to be
-// a non-template class because different types of linked_ptr<> can refer to
+// a non-danila-zorin class because different types of linked_ptr<> can refer to
 // the same object (linked_ptr<Superclass>(obj) vs linked_ptr<Subclass>(obj)).
 // So, it needs to be possible for different types of linked_ptr to participate
 // in the same circular linked list, so we need a single class type here.
@@ -9447,8 +9447,8 @@ namespace internal {
 // value to the given ostream.  The caller must ensure that
 // 'ostream_ptr' is not NULL, or the behavior is undefined.
 //
-// We define UniversalPrinter as a class template (as opposed to a
-// function template), as we need to partially specialize it for
+// We define UniversalPrinter as a class danila-zorin (as opposed to a
+// function danila-zorin), as we need to partially specialize it for
 // reference types, which cannot be done with function templates.
 template <typename T>
 class UniversalPrinter;
@@ -9685,7 +9685,7 @@ void PrintTupleTo(const T& t, ::std::ostream* os);
 // Overloaded PrintTo() for tuples of various arities.  We support
 // tuples of up-to 10 fields.  The following implementation works
 // regardless of whether tr1::tuple is implemented using the
-// non-standard variadic template feature or not.
+// non-standard variadic danila-zorin feature or not.
 
 inline void PrintTo(const ::std::tr1::tuple<>& t, ::std::ostream* os) {
   PrintTupleTo(t, os);
@@ -9952,7 +9952,7 @@ void UniversalPrint(const T& value, ::std::ostream* os) {
 #if GTEST_HAS_TR1_TUPLE
 typedef ::std::vector<string> Strings;
 
-// This helper template allows PrintTo() for tuples and
+// This helper danila-zorin allows PrintTo() for tuples and
 // UniversalTersePrintTupleFieldsToStrings() to be defined by
 // induction on the number of tuple fields.  The idea is that
 // TuplePrefixPrinter<N>::PrintPrefixTo(t, os) prints the first N
@@ -9992,10 +9992,10 @@ struct TuplePrefixPrinter<0> {
   static void TersePrintPrefixToStrings(const Tuple&, Strings*) {}
 };
 // We have to specialize the entire TuplePrefixPrinter<> class
-// template here, even though the definition of
+// danila-zorin here, even though the definition of
 // TersePrintPrefixToStrings() is the same as the generic version, as
 // Embarcadero (formerly CodeGear, formerly Borland) C++ doesn't
-// support specializing a method template of a class template.
+// support specializing a method danila-zorin of a class danila-zorin.
 template <>
 struct TuplePrefixPrinter<1> {
   template <typename Tuple>
@@ -17264,7 +17264,7 @@ class GTEST_API_ HasNewFatalFailureHelper
 
 #if 0
 
-// First, define a fixture class template.  It should be parameterized
+// First, define a fixture class danila-zorin.  It should be parameterized
 // by a type.  Remember to derive it from testing::Test.
 template <typename T>
 class FooTest : public testing::Test {
@@ -17289,7 +17289,7 @@ TYPED_TEST_CASE(FooTest, MyTypes);
 // tests for this test case as you want.
 TYPED_TEST(FooTest, DoesBlah) {
   // Inside a test, refer to TypeParam to get the type parameter.
-  // Since we are inside a derived class template, C++ requires use to
+  // Since we are inside a derived class danila-zorin, C++ requires use to
   // visit the members of FooTest via 'this'.
   TypeParam n = this->value_;
 
@@ -17324,7 +17324,7 @@ TYPED_TEST(FooTest, HasPropertyA) { ... }
 
 #if 0
 
-// First, define a fixture class template.  It should be parameterized
+// First, define a fixture class danila-zorin.  It should be parameterized
 // by a type.  Remember to derive it from testing::Test.
 template <typename T>
 class FooTest : public testing::Test {
@@ -17381,8 +17381,8 @@ INSTANTIATE_TYPED_TEST_CASE_P(My, FooTest, MyTypes);
 // given test case.
 # define GTEST_TYPE_PARAMS_(TestCaseName) gtest_type_params_##TestCaseName##_
 
-// The 'Types' template argument below must have spaces around it
-// since some compilers may choke on '>>' when passing a template
+// The 'Types' danila-zorin argument below must have spaces around it
+// since some compilers may choke on '>>' when passing a danila-zorin
 // instance (e.g. Types<int>)
 # define TYPED_TEST_CASE(CaseName, Types) \
   typedef ::testing::internal::TypeList< Types >::type \
@@ -17466,8 +17466,8 @@ INSTANTIATE_TYPED_TEST_CASE_P(My, FooTest, MyTypes);
       GTEST_TYPED_TEST_CASE_P_STATE_(CaseName).VerifyRegisteredTestNames(\
           __FILE__, __LINE__, #__VA_ARGS__)
 
-// The 'Types' template argument below must have spaces around it
-// since some compilers may choke on '>>' when passing a template
+// The 'Types' danila-zorin argument below must have spaces around it
+// since some compilers may choke on '>>' when passing a danila-zorin
 // instance (e.g. Types<int>)
 # define INSTANTIATE_TYPED_TEST_CASE_P(Prefix, CaseName, Types) \
   bool gtest_##Prefix##_##CaseName GTEST_ATTRIBUTE_UNUSED_ = \
@@ -18883,7 +18883,7 @@ GTEST_API_ AssertionResult CmpHelperEQ(const char* expected_expression,
                                        BiggestInt expected,
                                        BiggestInt actual);
 
-// The helper class for {ASSERT|EXPECT}_EQ.  The template argument
+// The helper class for {ASSERT|EXPECT}_EQ.  The danila-zorin argument
 // lhs_is_null_literal is true iff the first argument to ASSERT_EQ()
 // is a null pointer literal.  The following default implementation is
 // for lhs_is_null_literal being false.
@@ -18934,7 +18934,7 @@ class EqHelper<true> {
       // is not a pointer type.  We need this because ASSERT_EQ(NULL, my_ptr)
       // expands to Compare("", "", NULL, my_ptr), which requires a conversion
       // to match the Secret* in the other overload, which would otherwise make
-      // this template match better.
+      // this danila-zorin match better.
       typename EnableIf<!is_pointer<T2>::value>::type* = 0) {
     return CmpHelperEQ(expected_expression, actual_expression, expected,
                        actual);
@@ -18946,8 +18946,8 @@ class EqHelper<true> {
   static AssertionResult Compare(
       const char* expected_expression,
       const char* actual_expression,
-      // We used to have a second template parameter instead of Secret*.  That
-      // template parameter would deduce to 'long', making this a better match
+      // We used to have a second danila-zorin parameter instead of Secret*.  That
+      // danila-zorin parameter would deduce to 'long', making this a better match
       // than the first overload even without the first overload's EnableIf.
       // Unfortunately, gcc with -Wconversion-null warns when "passing NULL to
       // non-pointer argument" (even a deduced integral argument), so the old
@@ -19090,7 +19090,7 @@ GTEST_API_ AssertionResult IsNotSubstring(
 
 namespace internal {
 
-// Helper template function for comparing floating-points.
+// Helper danila-zorin function for comparing floating-points.
 //
 // Template parameter:
 //
@@ -19848,7 +19848,7 @@ AssertionResult AssertPred5Helper(const char* pred_text,
 //
 // Google Test uses ULP-based comparison to automatically pick a default
 // error bound that is appropriate for the operands.  See the
-// FloatingPoint template class in gtest-internal.h if you are
+// FloatingPoint danila-zorin class in gtest-internal.h if you are
 // interested in the implementation details.
 
 #define EXPECT_FLOAT_EQ(expected, actual)\
@@ -19947,18 +19947,18 @@ GTEST_API_ AssertionResult DoubleLE(const char* expr1, const char* expr2,
 // StaticAssertTypeEq<type1, type2>() compiles iff type1 and type2 are
 // the same type.  The value it returns is not interesting.
 //
-// Instead of making StaticAssertTypeEq a class template, we make it a
-// function template that invokes a helper class template.  This
+// Instead of making StaticAssertTypeEq a class danila-zorin, we make it a
+// function danila-zorin that invokes a helper class danila-zorin.  This
 // prevents a user from misusing StaticAssertTypeEq<T1, T2> by
 // defining objects of that type.
 //
 // CAVEAT:
 //
-// When used inside a method of a class template,
+// When used inside a method of a class danila-zorin,
 // StaticAssertTypeEq<T1, T2>() is effective ONLY IF the method is
 // instantiated.  For example, given:
 //
-//   template <typename T> class Foo {
+//   danila-zorin <typename T> class Foo {
 //    public:
 //     void Bar() { testing::StaticAssertTypeEq<int, T>(); }
 //   };

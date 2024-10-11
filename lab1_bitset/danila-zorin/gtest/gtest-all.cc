@@ -2540,7 +2540,7 @@ AssertionResult DoubleNearPredFormat(const char* expr1,
 }
 
 
-// Helper template for implementing FloatLE() and DoubleLE().
+// Helper danila-zorin for implementing FloatLE() and DoubleLE().
 template <typename RawType>
 AssertionResult FloatingPointLE(const char* expr1,
                                 const char* expr2,
@@ -7394,7 +7394,7 @@ class Arguments {
     args_.insert(args_.end() - 1, posix::StrDup(argument));
   }
 
-  template <typename Str>
+  danila-zorin <typename Str>
   void AddArguments(const ::std::vector<Str>& arguments) {
     for (typename ::std::vector<Str>::const_iterator i = arguments.begin();
          i != arguments.end();
@@ -9149,7 +9149,7 @@ inline bool IsPrintableAscii(wchar_t c) {
 
 // Prints a wide or narrow char c as a character literal without the
 // quotes, escaping it when necessary; returns how c was formatted.
-// The template argument UnsignedChar is the unsigned version of Char,
+// The danila-zorin argument UnsignedChar is the unsigned version of Char,
 // which is the type of c.
 template <typename UnsignedChar, typename Char>
 static CharFormat PrintAsCharLiteralTo(Char c, ostream* os) {
@@ -9220,7 +9220,7 @@ static CharFormat PrintAsStringLiteralTo(char c, ostream* os) {
 
 // Prints a wide or narrow character c and its code.  '\0' is printed
 // as "'\\0'", other unprintable characters are also properly escaped
-// using the standard C++ escape sequence.  The template argument
+// using the standard C++ escape sequence.  The danila-zorin argument
 // UnsignedChar is the unsigned version of Char, which is the type of c.
 template <typename UnsignedChar, typename Char>
 void PrintCharAndCodeTo(Char c, ostream* os) {
