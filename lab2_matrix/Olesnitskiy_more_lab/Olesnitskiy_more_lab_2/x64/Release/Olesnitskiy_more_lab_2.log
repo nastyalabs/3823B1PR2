@@ -1,0 +1,79 @@
+﻿  main.cpp
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\main.cpp(14,16): warning C4267: =: преобразование из "size_t" в "T"; возможна потеря данных
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\main.cpp(14,16): warning C4267:         with
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\main.cpp(14,16): warning C4267:         [
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\main.cpp(14,16): warning C4267:             T=int
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\main.cpp(14,16): warning C4267:         ]
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\main.cpp(25,22): warning C4267: =: преобразование из "size_t" в "T"; возможна потеря данных
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\main.cpp(25,22): warning C4267:         with
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\main.cpp(25,22): warning C4267:         [
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\main.cpp(25,22): warning C4267:             T=int
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\main.cpp(25,22): warning C4267:         ]
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(274,22): warning C4267: =: преобразование из "size_t" в "T"; возможна потеря данных
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(274,22): warning C4267:         with
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(274,22): warning C4267:         [
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(274,22): warning C4267:             T=int
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(274,22): warning C4267:         ]
+  (компиляция исходного файла "main.cpp")
+  C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(274,22):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\main.cpp(26,20):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "NoZeroMatrix<T>"
+          with
+          [
+              T=int
+          ]
+  	C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(257,2):
+  	во время компиляции функции-члена класс шаблон "NoZeroMatrix<T>::NoZeroMatrix(const MatrixInLine<T> &)"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\main.cpp(27,22):
+  		см. первую ссылку на "NoZeroMatrix<T>::NoZeroMatrix" в "main"
+          with
+          [
+              T=int
+          ]
+  
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(275,22): warning C4267: =: преобразование из "size_t" в "T"; возможна потеря данных
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(275,22): warning C4267:         with
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(275,22): warning C4267:         [
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(275,22): warning C4267:             T=int
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(275,22): warning C4267:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(251,22): warning C4267: =: преобразование из "size_t" в "T"; возможна потеря данных
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(251,22): warning C4267:         with
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(251,22): warning C4267:         [
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(251,22): warning C4267:             T=int
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(251,22): warning C4267:         ]
+  (компиляция исходного файла "main.cpp")
+  C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(251,22):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(235,2):
+  	во время компиляции функции-члена класс шаблон "NoZeroMatrix<T>::NoZeroMatrix(const Matrix<T> &)"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\main.cpp(26,22):
+  		см. первую ссылку на "NoZeroMatrix<T>::NoZeroMatrix" в "main"
+          with
+          [
+              T=int
+          ]
+  
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(252,22): warning C4267: =: преобразование из "size_t" в "T"; возможна потеря данных
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(252,22): warning C4267:         with
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(252,22): warning C4267:         [
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(252,22): warning C4267:             T=int
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(252,22): warning C4267:         ]
+  (компиляция исходного файла "main.cpp")
+  
+  Создание кода
+  0 of 51 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Olesnitskiy_more_lab_2.vcxproj -> C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\x64\Release\Olesnitskiy_more_lab_2.exe

@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vova\\source\\\u041D\u041D\u0413\u0423\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 2 \u043A\u0443\u0440\u0441\\Lab_11\\lab3_postfix\\template\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vova\\source\\\u041D\u041D\u0413\u0423\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 2 \u043A\u0443\u0440\u0441\\Lab_11\\lab3_postfix\\template\\samples\\sample_postfix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:samples\\sample_postfix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vova\\source\\\u041D\u041D\u0413\u0423\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 2 \u043A\u0443\u0440\u0441\\Lab_11\\lab3_postfix\\template\\include\\postfix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\postfix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vova\\source\\\u041D\u041D\u0413\u0423\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 2 \u043A\u0443\u0440\u0441\\Lab_11\\lab3_postfix\\template\\include\\stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vova\\source\\\u041D\u041D\u0413\u0423\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 2 \u043A\u0443\u0440\u0441\\Lab_11\\lab3_postfix\\template\\test\\test_stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test\\test_stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vova\\source\\\u041D\u041D\u0413\u0423\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 2 \u043A\u0443\u0440\u0441\\Lab_11\\lab3_postfix\\template\\test\\test_tpostfix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test\\test_tpostfix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "stack.h",
+              "DocumentMoniker": "C:\\Users\\Vova\\source\\\u041D\u041D\u0413\u0423\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 2 \u043A\u0443\u0440\u0441\\Lab_11\\lab3_postfix\\template\\include\\stack.h",
+              "RelativeDocumentMoniker": "include\\stack.h",
+              "ToolTip": "C:\\Users\\Vova\\source\\\u041D\u041D\u0413\u0423\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 2 \u043A\u0443\u0440\u0441\\Lab_11\\lab3_postfix\\template\\include\\stack.h",
+              "RelativeToolTip": "include\\stack.h",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAFwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-31T12:12:49.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "postfix.h",
+              "DocumentMoniker": "C:\\Users\\Vova\\source\\\u041D\u041D\u0413\u0423\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 2 \u043A\u0443\u0440\u0441\\Lab_11\\lab3_postfix\\template\\include\\postfix.h",
+              "RelativeDocumentMoniker": "include\\postfix.h",
+              "ToolTip": "C:\\Users\\Vova\\source\\\u041D\u041D\u0413\u0423\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 2 \u043A\u0443\u0440\u0441\\Lab_11\\lab3_postfix\\template\\include\\postfix.h",
+              "RelativeToolTip": "include\\postfix.h",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-31T12:12:48.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "sample_postfix.cpp",
+              "DocumentMoniker": "C:\\Users\\Vova\\source\\\u041D\u041D\u0413\u0423\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 2 \u043A\u0443\u0440\u0441\\Lab_11\\lab3_postfix\\template\\samples\\sample_postfix.cpp",
+              "RelativeDocumentMoniker": "samples\\sample_postfix.cpp",
+              "ToolTip": "C:\\Users\\Vova\\source\\\u041D\u041D\u0413\u0423\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 2 \u043A\u0443\u0440\u0441\\Lab_11\\lab3_postfix\\template\\samples\\sample_postfix.cpp",
+              "RelativeToolTip": "samples\\sample_postfix.cpp",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-31T12:12:40.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "test_tpostfix.cpp",
+              "DocumentMoniker": "C:\\Users\\Vova\\source\\\u041D\u041D\u0413\u0423\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 2 \u043A\u0443\u0440\u0441\\Lab_11\\lab3_postfix\\template\\test\\test_tpostfix.cpp",
+              "RelativeDocumentMoniker": "test\\test_tpostfix.cpp",
+              "ToolTip": "C:\\Users\\Vova\\source\\\u041D\u041D\u0413\u0423\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 2 \u043A\u0443\u0440\u0441\\Lab_11\\lab3_postfix\\template\\test\\test_tpostfix.cpp",
+              "RelativeToolTip": "test\\test_tpostfix.cpp",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAEcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-31T12:12:28.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "test_stack.cpp",
+              "DocumentMoniker": "C:\\Users\\Vova\\source\\\u041D\u041D\u0413\u0423\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 2 \u043A\u0443\u0440\u0441\\Lab_11\\lab3_postfix\\template\\test\\test_stack.cpp",
+              "RelativeDocumentMoniker": "test\\test_stack.cpp",
+              "ToolTip": "C:\\Users\\Vova\\source\\\u041D\u041D\u0413\u0423\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 2 \u043A\u0443\u0440\u0441\\Lab_11\\lab3_postfix\\template\\test\\test_stack.cpp",
+              "RelativeToolTip": "test\\test_stack.cpp",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-31T12:12:25.344Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
