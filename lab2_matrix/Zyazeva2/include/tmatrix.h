@@ -1,4 +1,4 @@
-﻿#include <iostream>
+﻿#include "iostream"
 
 using namespace std;
 
@@ -88,13 +88,13 @@ public:
     // Индексация с контролем
     T& at(size_t ind)
     {
-        if (ind >= sz) throw out_of_range("Index out of range");
+        if ((ind >= sz) || (ind < 0)) throw out_of_range("Index out of range");
         return pMem[ind];
     }
 
     const T& at(size_t ind) const
     {
-        if (ind >= sz) throw out_of_range("Index out of range");
+        if ((ind >= sz) || (ind < 0)) throw out_of_range("Index out of range");
         return pMem[ind];
     }
 
@@ -165,13 +165,13 @@ public:
         return tmp;
     }
 
-    TDynamicVector operator*(const TDynamicVector& v) const noexcept(noexcept(TDynamicVector()))
+    T operator*(const TDynamicVector& v) const noexcept(noexcept(TDynamicVector()))
     {
         if (sz != v.sz) throw invalid_argument("Vectors must be of the same size");
 
-        TDynamicVector result(v.sz);
+        T result = NULL;
         for (size_t i = 0; i < sz; i++) {
-            result[i] = pMem[i] * v.pMem[i];
+            result += pMem[i] * v.pMem[i];
         }
         return result;
     }
@@ -247,7 +247,7 @@ public:
         if (sz != m.sz) throw invalid_argument("M must be of the same size");
         TDynamicVector<T> tmp(sz);
         for (size_t i = 0; i < sz; i++) {
-            tmp[i] = pMem[i] * v;
+            tmp[i] += pMem[i] * v;
         }
         return tmp;
     }
