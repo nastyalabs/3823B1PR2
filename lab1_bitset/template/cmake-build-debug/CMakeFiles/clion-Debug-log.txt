@@ -1,1 +1,0 @@
-CMakeLists.txt not found in C:\Users\polin_3p0jepg\CLionProjects\3823B1PR2\lab1_bitset\template Select CMakeLists.txt
