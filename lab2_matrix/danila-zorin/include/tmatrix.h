@@ -263,14 +263,14 @@ public:
 
     TDynamicVector<T> operator*(const TDynamicVector<T>& v)
     {
-        if (sz != v.size())  // Проверка на соответствие размеров
+        if (sz != v.size())
             throw out_of_range("Vector sizes must match for multiplication");
 
         TDynamicVector<T> result(sz);
         for (size_t i = 0; i < sz; i++)
         {
-            result[i] = T();  // Инициализация результата
-            for (size_t j = 0; j < sz; j++)  // Процесс умножения
+            result[i] = T();
+            for (size_t j = 0; j < sz; j++)
             {
                 result[i] += pMem[i][j] * v[j];
             }
