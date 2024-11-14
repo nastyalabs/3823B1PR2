@@ -43,6 +43,15 @@ public:
             case 'f':
                 priority = 4;
                 break;
+            case 'c':
+                priority = 4;
+                break;
+            case 's':
+                priority = 4;
+                break;
+            case 'l':
+                priority = 4;
+                break;
             default: throw "UNKNOWN!";
         }
     }
@@ -70,6 +79,12 @@ public:
         switch(symbol) {
             case 'f':
                 return a;
+            case 'c':
+                return cos(a);
+            case 's':
+                return sin(a);
+            case 'l':
+                return log(a);
             default: throw "DUMB!";
         }
     }

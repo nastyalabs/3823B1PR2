@@ -20,7 +20,12 @@ struct PolishCell {
         std::cout << "Hello" << std::endl;
     }
     PolishCell(const OperationChar& val) : left(nullptr), right(nullptr) {
-        info = operation;
+        if (val.get_priority() >= 4) {
+            info = function;
+        }
+        else {
+            info = operation;
+        }
         value = (void*)(new OperationChar(val));
     }
     PolishCell(const double& val) : left(nullptr), right(nullptr) {

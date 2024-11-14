@@ -69,24 +69,10 @@ include test/CMakeFiles/test_matrix.dir/progress.make
 # Include the compile flags for this target's objects.
 include test/CMakeFiles/test_matrix.dir/flags.make
 
-test/CMakeFiles/test_matrix.dir/test_linematrix.cpp.o: test/CMakeFiles/test_matrix.dir/flags.make
-test/CMakeFiles/test_matrix.dir/test_linematrix.cpp.o: /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/test/test_linematrix.cpp
-test/CMakeFiles/test_matrix.dir/test_linematrix.cpp.o: test/CMakeFiles/test_matrix.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/test_matrix.dir/test_linematrix.cpp.o"
-	cd /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/test_matrix.dir/test_linematrix.cpp.o -MF CMakeFiles/test_matrix.dir/test_linematrix.cpp.o.d -o CMakeFiles/test_matrix.dir/test_linematrix.cpp.o -c /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/test/test_linematrix.cpp
-
-test/CMakeFiles/test_matrix.dir/test_linematrix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_matrix.dir/test_linematrix.cpp.i"
-	cd /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/test/test_linematrix.cpp > CMakeFiles/test_matrix.dir/test_linematrix.cpp.i
-
-test/CMakeFiles/test_matrix.dir/test_linematrix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_matrix.dir/test_linematrix.cpp.s"
-	cd /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/test/test_linematrix.cpp -o CMakeFiles/test_matrix.dir/test_linematrix.cpp.s
-
 test/CMakeFiles/test_matrix.dir/test_main.cpp.o: test/CMakeFiles/test_matrix.dir/flags.make
 test/CMakeFiles/test_matrix.dir/test_main.cpp.o: /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/test/test_main.cpp
 test/CMakeFiles/test_matrix.dir/test_main.cpp.o: test/CMakeFiles/test_matrix.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/test_matrix.dir/test_main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/test_matrix.dir/test_main.cpp.o"
 	cd /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/test_matrix.dir/test_main.cpp.o -MF CMakeFiles/test_matrix.dir/test_main.cpp.o.d -o CMakeFiles/test_matrix.dir/test_main.cpp.o -c /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/test/test_main.cpp
 
 test/CMakeFiles/test_matrix.dir/test_main.cpp.i: cmake_force
@@ -100,7 +86,7 @@ test/CMakeFiles/test_matrix.dir/test_main.cpp.s: cmake_force
 test/CMakeFiles/test_matrix.dir/test_tmatrix.cpp.o: test/CMakeFiles/test_matrix.dir/flags.make
 test/CMakeFiles/test_matrix.dir/test_tmatrix.cpp.o: /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/test/test_tmatrix.cpp
 test/CMakeFiles/test_matrix.dir/test_tmatrix.cpp.o: test/CMakeFiles/test_matrix.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/test_matrix.dir/test_tmatrix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/test_matrix.dir/test_tmatrix.cpp.o"
 	cd /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/test_matrix.dir/test_tmatrix.cpp.o -MF CMakeFiles/test_matrix.dir/test_tmatrix.cpp.o.d -o CMakeFiles/test_matrix.dir/test_tmatrix.cpp.o -c /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/test/test_tmatrix.cpp
 
 test/CMakeFiles/test_matrix.dir/test_tmatrix.cpp.i: cmake_force
@@ -114,7 +100,7 @@ test/CMakeFiles/test_matrix.dir/test_tmatrix.cpp.s: cmake_force
 test/CMakeFiles/test_matrix.dir/test_tvector.cpp.o: test/CMakeFiles/test_matrix.dir/flags.make
 test/CMakeFiles/test_matrix.dir/test_tvector.cpp.o: /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/test/test_tvector.cpp
 test/CMakeFiles/test_matrix.dir/test_tvector.cpp.o: test/CMakeFiles/test_matrix.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/test_matrix.dir/test_tvector.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/test_matrix.dir/test_tvector.cpp.o"
 	cd /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/test_matrix.dir/test_tvector.cpp.o -MF CMakeFiles/test_matrix.dir/test_tvector.cpp.o.d -o CMakeFiles/test_matrix.dir/test_tvector.cpp.o -c /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/test/test_tvector.cpp
 
 test/CMakeFiles/test_matrix.dir/test_tvector.cpp.i: cmake_force
@@ -127,7 +113,6 @@ test/CMakeFiles/test_matrix.dir/test_tvector.cpp.s: cmake_force
 
 # Object files for target test_matrix
 test_matrix_OBJECTS = \
-"CMakeFiles/test_matrix.dir/test_linematrix.cpp.o" \
 "CMakeFiles/test_matrix.dir/test_main.cpp.o" \
 "CMakeFiles/test_matrix.dir/test_tmatrix.cpp.o" \
 "CMakeFiles/test_matrix.dir/test_tvector.cpp.o"
@@ -135,14 +120,13 @@ test_matrix_OBJECTS = \
 # External object files for target test_matrix
 test_matrix_EXTERNAL_OBJECTS =
 
-test/test_matrix: test/CMakeFiles/test_matrix.dir/test_linematrix.cpp.o
 test/test_matrix: test/CMakeFiles/test_matrix.dir/test_main.cpp.o
 test/test_matrix: test/CMakeFiles/test_matrix.dir/test_tmatrix.cpp.o
 test/test_matrix: test/CMakeFiles/test_matrix.dir/test_tvector.cpp.o
 test/test_matrix: test/CMakeFiles/test_matrix.dir/build.make
 test/test_matrix: gtest/libgtest.a
 test/test_matrix: test/CMakeFiles/test_matrix.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable test_matrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable test_matrix"
 	cd /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_matrix.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

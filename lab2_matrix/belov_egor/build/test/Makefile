@@ -130,30 +130,6 @@ test_matrix/fast:
 	cd /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_matrix.dir/build.make test/CMakeFiles/test_matrix.dir/build
 .PHONY : test_matrix/fast
 
-test_linematrix.o: test_linematrix.cpp.o
-.PHONY : test_linematrix.o
-
-# target to build an object file
-test_linematrix.cpp.o:
-	cd /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_matrix.dir/build.make test/CMakeFiles/test_matrix.dir/test_linematrix.cpp.o
-.PHONY : test_linematrix.cpp.o
-
-test_linematrix.i: test_linematrix.cpp.i
-.PHONY : test_linematrix.i
-
-# target to preprocess a source file
-test_linematrix.cpp.i:
-	cd /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_matrix.dir/build.make test/CMakeFiles/test_matrix.dir/test_linematrix.cpp.i
-.PHONY : test_linematrix.cpp.i
-
-test_linematrix.s: test_linematrix.cpp.s
-.PHONY : test_linematrix.s
-
-# target to generate assembly for a file
-test_linematrix.cpp.s:
-	cd /Users/belovegor/Documents/belov_egor/lab2_matrix/belov_egor/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_matrix.dir/build.make test/CMakeFiles/test_matrix.dir/test_linematrix.cpp.s
-.PHONY : test_linematrix.cpp.s
-
 test_main.o: test_main.cpp.o
 .PHONY : test_main.o
 
@@ -235,9 +211,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test_matrix"
-	@echo "... test_linematrix.o"
-	@echo "... test_linematrix.i"
-	@echo "... test_linematrix.s"
 	@echo "... test_main.o"
 	@echo "... test_main.i"
 	@echo "... test_main.s"
