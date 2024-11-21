@@ -1,3 +1,4 @@
+
 #include "tmatrix.h"
 
 #include <gtest.h>
@@ -108,4 +109,3 @@ TEST(TDynamicMatrix, cant_subtract_matrixes_with_not_equal_size)
 {
   ADD_FAILURE();
 }
-

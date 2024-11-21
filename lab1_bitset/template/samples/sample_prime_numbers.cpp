@@ -19,9 +19,9 @@ int main()
   int n, m, k, count;
 
   setlocale(LC_ALL, "Russian");
-  cout << "Testing bitfield support programs" << endl;
-  cout << "      sieve of Eratosthenes" << endl;
-  cout << "Enter the upper bound of the integer values -";
+  cout << "Тестирование программ поддержки битового поля" << endl;
+  cout << "             Решето Эратосфена" << endl;
+  cout << "Введите верхнюю границу целых значений - ";
   cin  >> n;
   TBitField s(n + 1);
   // заполнение множества
@@ -35,8 +35,8 @@ int main()
         if (s.GetBit(k))
           s.ClrBit(k);
   // оставшиеся в s элементы - простые числа
-  cout << endl << "Printing a set of non-multiple numbers" << endl << s << endl;
-  cout << endl << "Printing prime numbers" << endl;
+  cout << endl << "Печать множества некратных чисел" << endl << s << endl;
+  cout << endl << "Печать простых чисел" << endl;
   count = 0;
   k = 1;
   for (m = 2; m <= n; m++)
@@ -48,7 +48,7 @@ int main()
         cout << endl;
     }
   cout << endl;
-  cout << "In the first " << n << " numbers there are " << count << " prime ones" << endl;
+  cout << "В первых " << n << " числах " << count << " простых" << endl;
 }
 #else
 

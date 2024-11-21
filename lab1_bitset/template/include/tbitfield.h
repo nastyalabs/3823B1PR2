@@ -7,7 +7,7 @@
 
 #ifndef __BITFIELD_H__
 #define __BITFIELD_H__
-#include <bitset>
+
 #include <iostream>
 
 using namespace std;
@@ -53,14 +53,3 @@ public:
 // О8 Л2 П4 С2
 
 #endif
-
-
-/*
-
-MemLen - вся длина, вся память
-BitLen - длина от первого значимого бита до последнего
-
-найти стандартную реализацию (bitfield.h ?)
-
-
-*/

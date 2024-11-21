@@ -69,7 +69,7 @@ TEST(TSet, compare_two_equal_sets)
   set2.InsElem(1);
   set2.InsElem(3);
 
-  EXPECT_EQ(1, set1==set2);
+  EXPECT_EQ(set1, set2);
 }
 
 TEST(TSet, compare_two_non_equal_sets)
