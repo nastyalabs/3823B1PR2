@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ilya_\source\repos\baifffboy\3823B1PR2\lab1_bitset\якимов\gtest\gtest-all.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ilya_\source\repos\baifffboy\3823B1PR2\lab1_bitset\якимов\gtest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{016F110A-E988-326D-A3E8-648DB3E50B0C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
