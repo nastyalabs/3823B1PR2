@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{6A994820-8757-390E-83D6-6C22762ED025}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6E2754E9-778C-3CD8-9D7A-7CF6DA99238B} = {6E2754E9-778C-3CD8-9D7A-7CF6DA99238B}
+		{33539734-B958-3792-933C-3A39C85D3201} = {33539734-B958-3792-933C-3A39C85D3201}
+		{68AB38FB-654D-3CD3-89DC-64BC7056A427} = {68AB38FB-654D-3CD3-89DC-64BC7056A427}
+		{D548A095-C645-3C19-A7BC-7B2B5D28466D} = {D548A095-C645-3C19-A7BC-7B2B5D28466D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{6E2754E9-778C-3CD8-9D7A-7CF6DA99238B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest", "gtest\gtest.vcxproj", "{33539734-B958-3792-933C-3A39C85D3201}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6E2754E9-778C-3CD8-9D7A-7CF6DA99238B} = {6E2754E9-778C-3CD8-9D7A-7CF6DA99238B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "postfix", "include\postfix.vcxproj", "{1A3801C8-B5AD-3827-BACE-901F22B4B1C2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6E2754E9-778C-3CD8-9D7A-7CF6DA99238B} = {6E2754E9-778C-3CD8-9D7A-7CF6DA99238B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "postfix_test", "test\postfix_test.vcxproj", "{68AB38FB-654D-3CD3-89DC-64BC7056A427}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6E2754E9-778C-3CD8-9D7A-7CF6DA99238B} = {6E2754E9-778C-3CD8-9D7A-7CF6DA99238B}
+		{33539734-B958-3792-933C-3A39C85D3201} = {33539734-B958-3792-933C-3A39C85D3201}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sample_postfix", "samples\sample_postfix.vcxproj", "{D548A095-C645-3C19-A7BC-7B2B5D28466D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6E2754E9-778C-3CD8-9D7A-7CF6DA99238B} = {6E2754E9-778C-3CD8-9D7A-7CF6DA99238B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A994820-8757-390E-83D6-6C22762ED025}.Debug|x64.ActiveCfg = Debug|x64
+		{6A994820-8757-390E-83D6-6C22762ED025}.Release|x64.ActiveCfg = Release|x64
+		{6E2754E9-778C-3CD8-9D7A-7CF6DA99238B}.Debug|x64.ActiveCfg = Debug|x64
+		{6E2754E9-778C-3CD8-9D7A-7CF6DA99238B}.Debug|x64.Build.0 = Debug|x64
+		{6E2754E9-778C-3CD8-9D7A-7CF6DA99238B}.Release|x64.ActiveCfg = Release|x64
+		{6E2754E9-778C-3CD8-9D7A-7CF6DA99238B}.Release|x64.Build.0 = Release|x64
+		{33539734-B958-3792-933C-3A39C85D3201}.Debug|x64.ActiveCfg = Debug|x64
+		{33539734-B958-3792-933C-3A39C85D3201}.Debug|x64.Build.0 = Debug|x64
+		{33539734-B958-3792-933C-3A39C85D3201}.Release|x64.ActiveCfg = Release|x64
+		{33539734-B958-3792-933C-3A39C85D3201}.Release|x64.Build.0 = Release|x64
+		{1A3801C8-B5AD-3827-BACE-901F22B4B1C2}.Debug|x64.ActiveCfg = Debug|x64
+		{1A3801C8-B5AD-3827-BACE-901F22B4B1C2}.Release|x64.ActiveCfg = Release|x64
+		{68AB38FB-654D-3CD3-89DC-64BC7056A427}.Debug|x64.ActiveCfg = Debug|x64
+		{68AB38FB-654D-3CD3-89DC-64BC7056A427}.Debug|x64.Build.0 = Debug|x64
+		{68AB38FB-654D-3CD3-89DC-64BC7056A427}.Release|x64.ActiveCfg = Release|x64
+		{68AB38FB-654D-3CD3-89DC-64BC7056A427}.Release|x64.Build.0 = Release|x64
+		{D548A095-C645-3C19-A7BC-7B2B5D28466D}.Debug|x64.ActiveCfg = Debug|x64
+		{D548A095-C645-3C19-A7BC-7B2B5D28466D}.Debug|x64.Build.0 = Debug|x64
+		{D548A095-C645-3C19-A7BC-7B2B5D28466D}.Release|x64.ActiveCfg = Release|x64
+		{D548A095-C645-3C19-A7BC-7B2B5D28466D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1D1361E-4DCC-3690-A47F-A169FBC9EE9A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
