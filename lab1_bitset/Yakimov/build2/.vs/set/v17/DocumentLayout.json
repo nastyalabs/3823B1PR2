@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ilya_\\source\\repos\\baifffboy\\3823B1PR2\\lab1_bitset\\\u044F\u043A\u0438\u043C\u043E\u0432\\build2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CE6F239-C0CC-3E38-ABE4-6FF12719350E}|src\\set.vcxproj|C:\\Users\\ilya_\\source\\repos\\baifffboy\\3823B1PR2\\lab1_bitset\\\u044F\u043A\u0438\u043C\u043E\u0432\\src\\tset.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CE6F239-C0CC-3E38-ABE4-6FF12719350E}|src\\set.vcxproj|C:\\Users\\ilya_\\source\\repos\\baifffboy\\3823B1PR2\\lab1_bitset\\\u044F\u043A\u0438\u043C\u043E\u0432\\src\\tbitfield.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30E9D0D-965C-3375-B931-FBA858B7B458}|test\\test_set.vcxproj|C:\\Users\\ilya_\\source\\repos\\baifffboy\\3823B1PR2\\lab1_bitset\\\u044F\u043A\u0438\u043C\u043E\u0432\\test\\test_tset.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CE6F239-C0CC-3E38-ABE4-6FF12719350E}|src\\set.vcxproj|C:\\Users\\ilya_\\source\\repos\\baifffboy\\3823B1PR2\\lab1_bitset\\\u044F\u043A\u0438\u043C\u043E\u0432\\include\\tset.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CE6F239-C0CC-3E38-ABE4-6FF12719350E}|src\\set.vcxproj|C:\\Users\\ilya_\\source\\repos\\baifffboy\\3823B1PR2\\lab1_bitset\\\u044F\u043A\u0438\u043C\u043E\u0432\\include\\tbitfield.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30E9D0D-965C-3375-B931-FBA858B7B458}|test\\test_set.vcxproj|C:\\Users\\ilya_\\source\\repos\\baifffboy\\3823B1PR2\\lab1_bitset\\\u044F\u043A\u0438\u043C\u043E\u0432\\test\\test_tbitfield.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "tset.h",
+              "DocumentMoniker": "C:\\Users\\ilya_\\source\\repos\\baifffboy\\3823B1PR2\\lab1_bitset\\\u044F\u043A\u0438\u043C\u043E\u0432\\include\\tset.h",
+              "RelativeDocumentMoniker": "..\\include\\tset.h",
+              "ToolTip": "C:\\Users\\ilya_\\source\\repos\\baifffboy\\3823B1PR2\\lab1_bitset\\\u044F\u043A\u0438\u043C\u043E\u0432\\include\\tset.h",
+              "RelativeToolTip": "..\\include\\tset.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-22T05:28:47.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "tbitfield.h",
+              "DocumentMoniker": "C:\\Users\\ilya_\\source\\repos\\baifffboy\\3823B1PR2\\lab1_bitset\\\u044F\u043A\u0438\u043C\u043E\u0432\\include\\tbitfield.h",
+              "RelativeDocumentMoniker": "..\\include\\tbitfield.h",
+              "ToolTip": "C:\\Users\\ilya_\\source\\repos\\baifffboy\\3823B1PR2\\lab1_bitset\\\u044F\u043A\u0438\u043C\u043E\u0432\\include\\tbitfield.h",
+              "RelativeToolTip": "..\\include\\tbitfield.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-21T13:22:59.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "test_tset.cpp",
+              "DocumentMoniker": "C:\\Users\\ilya_\\source\\repos\\baifffboy\\3823B1PR2\\lab1_bitset\\\u044F\u043A\u0438\u043C\u043E\u0432\\test\\test_tset.cpp",
+              "RelativeDocumentMoniker": "..\\test\\test_tset.cpp",
+              "ToolTip": "C:\\Users\\ilya_\\source\\repos\\baifffboy\\3823B1PR2\\lab1_bitset\\\u044F\u043A\u0438\u043C\u043E\u0432\\test\\test_tset.cpp",
+              "RelativeToolTip": "..\\test\\test_tset.cpp",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAAAB8BAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-08T06:30:30.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "test_tbitfield.cpp",
+              "DocumentMoniker": "C:\\Users\\ilya_\\source\\repos\\baifffboy\\3823B1PR2\\lab1_bitset\\\u044F\u043A\u0438\u043C\u043E\u0432\\test\\test_tbitfield.cpp",
+              "RelativeDocumentMoniker": "..\\test\\test_tbitfield.cpp",
+              "ToolTip": "C:\\Users\\ilya_\\source\\repos\\baifffboy\\3823B1PR2\\lab1_bitset\\\u044F\u043A\u0438\u043C\u043E\u0432\\test\\test_tbitfield.cpp",
+              "RelativeToolTip": "..\\test\\test_tbitfield.cpp",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-08T06:29:34.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "tbitfield.cpp",
+              "DocumentMoniker": "C:\\Users\\ilya_\\source\\repos\\baifffboy\\3823B1PR2\\lab1_bitset\\\u044F\u043A\u0438\u043C\u043E\u0432\\src\\tbitfield.cpp",
+              "RelativeDocumentMoniker": "..\\src\\tbitfield.cpp",
+              "ToolTip": "C:\\Users\\ilya_\\source\\repos\\baifffboy\\3823B1PR2\\lab1_bitset\\\u044F\u043A\u0438\u043C\u043E\u0432\\src\\tbitfield.cpp",
+              "RelativeToolTip": "..\\src\\tbitfield.cpp",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAHYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-08T06:26:13.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tset.cpp",
+              "DocumentMoniker": "C:\\Users\\ilya_\\source\\repos\\baifffboy\\3823B1PR2\\lab1_bitset\\\u044F\u043A\u0438\u043C\u043E\u0432\\src\\tset.cpp",
+              "RelativeDocumentMoniker": "..\\src\\tset.cpp",
+              "ToolTip": "C:\\Users\\ilya_\\source\\repos\\baifffboy\\3823B1PR2\\lab1_bitset\\\u044F\u043A\u0438\u043C\u043E\u0432\\src\\tset.cpp",
+              "RelativeToolTip": "..\\src\\tset.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-08T06:24:48.495Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

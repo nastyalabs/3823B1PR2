@@ -1,0 +1,53 @@
+﻿  main.cpp
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(315,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(315,12):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\main.cpp(55,20):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "NoZeroMatrix<T>"
+          with
+          [
+              T=int
+          ]
+  	C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(296,15):
+  	во время компиляции функции-члена класс шаблон "NoZeroMatrix<T> NoZeroMatrix<T>::operator *(NoZeroMatrix<T> &)"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\main.cpp(89,22):
+  		см. первую ссылку на "NoZeroMatrix<T>::operator *" в "main"
+          with
+          [
+              T=int
+          ]
+  
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(266,22): warning C4267: =: преобразование из "size_t" в "T"; возможна потеря данных
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(266,22): warning C4267:         with
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(266,22): warning C4267:         [
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(266,22): warning C4267:             T=int
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(266,22): warning C4267:         ]
+  (компиляция исходного файла "main.cpp")
+  C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(266,22):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(250,2):
+  	во время компиляции функции-члена класс шаблон "NoZeroMatrix<T>::NoZeroMatrix(const Matrix<T> &)"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\main.cpp(55,22):
+  		см. первую ссылку на "NoZeroMatrix<T>::NoZeroMatrix" в "main"
+          with
+          [
+              T=int
+          ]
+  
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(267,22): warning C4267: =: преобразование из "size_t" в "T"; возможна потеря данных
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(267,22): warning C4267:         with
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(267,22): warning C4267:         [
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(267,22): warning C4267:             T=int
+C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\Olesnitskiy_more_lab_2\classesess.h(267,22): warning C4267:         ]
+  (компиляция исходного файла "main.cpp")
+  
+  Olesnitskiy_more_lab_2.vcxproj -> C:\Users\Vova\source\ННГУ\Программирование 2 курс\Lab_11\lab2_matrix\Olesnitskiy_more_lab_2\x64\Debug\Olesnitskiy_more_lab_2.exe
