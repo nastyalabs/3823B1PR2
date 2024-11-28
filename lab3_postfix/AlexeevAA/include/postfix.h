@@ -29,9 +29,17 @@ public:
                         vcalc.push_back(s);
                         s = "";
                     }
-                    while(operators.top() != "(") vcalc.push_back(operators.pop());
-                    operators.pop();
-                    break;
+                    while(!operators.empty()){
+                        if(operators.top() != "("){
+                            vcalc.push_back(operators.pop());
+                        }
+                        else break;
+                    }
+                    if(!operators.empty()){
+                        operators.pop();
+                        break;
+                    }
+                    else throw string("error x)");
 
                 case '+':
                     if(s != ""){
@@ -86,13 +94,19 @@ public:
                 case ' ':
                     break;
                 default:
-                    s += *i;
-                    break;
+                    if(*i - '0' < 10 && *i - '0' >= 0){
+                        s += *i;
+                        break;
+                    }
+                    else throw string("error not number");
             }
         }
         if(s != "") 
             vcalc.push_back(s);
         while(!operators.empty()) vcalc.push_back(operators.pop());
+
+        for(string i: vcalc)
+            if(i == "(") throw string("error (x");
 
         string ans("");
         for(auto i: vcalc) ans += i + " ";
