@@ -1,24 +1,9 @@
 # ninja log v5
-6	848	7525274165124836	samples/CMakeFiles/matrix.dir/sample_matrix.cpp.obj	5bd2c1d8ed029290
-849	1117	7525274166904458	samples/matrix.exe	bd2be388b4965389
-101	3760	7514618979238710	gtest/CMakeFiles/gtest.dir/gtest-all.cc.obj	42773447586c87d1
-16	1797	7525374692159130	test/CMakeFiles/test_matrix.dir/test_tmatrix.cpp.obj	a7d9c640e3085634
-37	1917	7514618960820890	test/CMakeFiles/test_matrix.dir/test_main.cpp.obj	a3e6f4b88c2683d9
-21	1276	7525374691500207	test/CMakeFiles/test_matrix.dir/test_tvector.cpp.obj	6a5de7b96849a147
-84	259	7514620202948396	gtest/gtest.lib	fb2ee0ae39a73eb
-1799	2092	7525374699441037	test/test_matrix.exe	b55b9ebadc023e38
-18	1645	7526658318286577	test/CMakeFiles/test_matrix.dir/test_tvector.cpp.obj	6a5de7b96849a147
-10	1687	7526658318431182	test/CMakeFiles/test_matrix.dir/test_tmatrix.cpp.obj	a7d9c640e3085634
-1690	2086	7526658321736203	test/test_matrix.exe	b55b9ebadc023e38
 18	541	7526658400436546	samples/CMakeFiles/matrix.dir/sample_matrix.cpp.obj	5bd2c1d8ed029290
 542	745	7526658402089900	samples/matrix.exe	bd2be388b4965389
-57	1984	7526708213812794	test/CMakeFiles/test_matrix.dir/test_tvector.cpp.obj	6a5de7b96849a147
-45	1990	7526708213837996	test/CMakeFiles/test_matrix.dir/test_tmatrix.cpp.obj	a7d9c640e3085634
-1994	2395	7526708216867550	test/test_matrix.exe	b55b9ebadc023e38
-15	1314	7526709810016905	test/CMakeFiles/test_matrix.dir/test_tmatrix.cpp.obj	a7d9c640e3085634
-30	1219	7526709984667298	test/CMakeFiles/test_matrix.dir/test_tmatrix.cpp.obj	a7d9c640e3085634
-37	1280	7526709985375523	test/CMakeFiles/test_matrix.dir/test_tvector.cpp.obj	6a5de7b96849a147
-1283	1579	7526709987716016	test/test_matrix.exe	b55b9ebadc023e38
+101	3760	7514618979238710	gtest/CMakeFiles/gtest.dir/gtest-all.cc.obj	42773447586c87d1
 26	1332	7526710359293275	test/CMakeFiles/test_matrix.dir/test_tmatrix.cpp.obj	a7d9c640e3085634
+37	1917	7514618960820890	test/CMakeFiles/test_matrix.dir/test_main.cpp.obj	a3e6f4b88c2683d9
 33	1371	7526710359879993	test/CMakeFiles/test_matrix.dir/test_tvector.cpp.obj	6a5de7b96849a147
+84	259	7514620202948396	gtest/gtest.lib	fb2ee0ae39a73eb
 1373	1727	7526710362839419	test/test_matrix.exe	b55b9ebadc023e38
