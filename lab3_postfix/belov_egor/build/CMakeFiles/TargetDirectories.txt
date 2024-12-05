@@ -1,0 +1,14 @@
+/Users/belovegor/Documents/belov_egor/lab3_stack/belov_egor/build/CMakeFiles/edit_cache.dir
+/Users/belovegor/Documents/belov_egor/lab3_stack/belov_egor/build/CMakeFiles/rebuild_cache.dir
+/Users/belovegor/Documents/belov_egor/lab3_stack/belov_egor/build/src/CMakeFiles/stack.dir
+/Users/belovegor/Documents/belov_egor/lab3_stack/belov_egor/build/src/CMakeFiles/edit_cache.dir
+/Users/belovegor/Documents/belov_egor/lab3_stack/belov_egor/build/src/CMakeFiles/rebuild_cache.dir
+/Users/belovegor/Documents/belov_egor/lab3_stack/belov_egor/build/samples/CMakeFiles/sample1.dir
+/Users/belovegor/Documents/belov_egor/lab3_stack/belov_egor/build/samples/CMakeFiles/edit_cache.dir
+/Users/belovegor/Documents/belov_egor/lab3_stack/belov_egor/build/samples/CMakeFiles/rebuild_cache.dir
+/Users/belovegor/Documents/belov_egor/lab3_stack/belov_egor/build/gtest/CMakeFiles/gtest.dir
+/Users/belovegor/Documents/belov_egor/lab3_stack/belov_egor/build/gtest/CMakeFiles/edit_cache.dir
+/Users/belovegor/Documents/belov_egor/lab3_stack/belov_egor/build/gtest/CMakeFiles/rebuild_cache.dir
+/Users/belovegor/Documents/belov_egor/lab3_stack/belov_egor/build/test/CMakeFiles/test_stack.dir
+/Users/belovegor/Documents/belov_egor/lab3_stack/belov_egor/build/test/CMakeFiles/edit_cache.dir
+/Users/belovegor/Documents/belov_egor/lab3_stack/belov_egor/build/test/CMakeFiles/rebuild_cache.dir
