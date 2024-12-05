@@ -1,0 +1,14 @@
+C:/Users/Vova/source/ННГУ/Программирование 2 курс/Lab_11/lab3_postfix/template/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Vova/source/ННГУ/Программирование 2 курс/Lab_11/lab3_postfix/template/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Vova/source/ННГУ/Программирование 2 курс/Lab_11/lab3_postfix/template/out/build/x64-Debug/include/CMakeFiles/postfix.dir
+C:/Users/Vova/source/ННГУ/Программирование 2 курс/Lab_11/lab3_postfix/template/out/build/x64-Debug/include/CMakeFiles/edit_cache.dir
+C:/Users/Vova/source/ННГУ/Программирование 2 курс/Lab_11/lab3_postfix/template/out/build/x64-Debug/include/CMakeFiles/rebuild_cache.dir
+C:/Users/Vova/source/ННГУ/Программирование 2 курс/Lab_11/lab3_postfix/template/out/build/x64-Debug/gtest/CMakeFiles/gtest.dir
+C:/Users/Vova/source/ННГУ/Программирование 2 курс/Lab_11/lab3_postfix/template/out/build/x64-Debug/gtest/CMakeFiles/edit_cache.dir
+C:/Users/Vova/source/ННГУ/Программирование 2 курс/Lab_11/lab3_postfix/template/out/build/x64-Debug/gtest/CMakeFiles/rebuild_cache.dir
+C:/Users/Vova/source/ННГУ/Программирование 2 курс/Lab_11/lab3_postfix/template/out/build/x64-Debug/test/CMakeFiles/postfix_test.dir
+C:/Users/Vova/source/ННГУ/Программирование 2 курс/Lab_11/lab3_postfix/template/out/build/x64-Debug/test/CMakeFiles/edit_cache.dir
+C:/Users/Vova/source/ННГУ/Программирование 2 курс/Lab_11/lab3_postfix/template/out/build/x64-Debug/test/CMakeFiles/rebuild_cache.dir
+C:/Users/Vova/source/ННГУ/Программирование 2 курс/Lab_11/lab3_postfix/template/out/build/x64-Debug/samples/CMakeFiles/sample_postfix.dir
+C:/Users/Vova/source/ННГУ/Программирование 2 курс/Lab_11/lab3_postfix/template/out/build/x64-Debug/samples/CMakeFiles/edit_cache.dir
+C:/Users/Vova/source/ННГУ/Программирование 2 курс/Lab_11/lab3_postfix/template/out/build/x64-Debug/samples/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rabat\3823B1PR2\lab3_postfix\Kotelnikova\include\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\rabat\3823B1PR2\lab3_postfix\Kotelnikova\include\postfix.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\rabat\3823B1PR2\lab3_postfix\Kotelnikova\include\stack.h">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BD4BC236-AAAE-3167-8B25-A0AAF083AE23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
