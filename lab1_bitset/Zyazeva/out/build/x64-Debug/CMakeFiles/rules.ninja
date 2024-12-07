@@ -101,7 +101,7 @@ rule CXX_EXECUTABLE_LINKER__test_set_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\slana\3823B1PR2\lab1_bitset\template -BC:\Users\slana\3823B1PR2\lab1_bitset\template\out\build\x64-Debug
+  command = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\slana\3823B1PR2\lab1_bitset\Zyazeva -BC:\Users\slana\3823B1PR2\lab1_bitset\Zyazeva\out\build\x64-Debug
   description = Re-running CMake...
   generator = 1
 

@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/slana/3823B1PR2/lab1_bitset/template/gtest
+# Install script for directory: C:/Users/slana/3823B1PR2/lab1_bitset/Zyazeva/gtest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/slana/3823B1PR2/lab1_bitset/template/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/slana/3823B1PR2/lab1_bitset/Zyazeva/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

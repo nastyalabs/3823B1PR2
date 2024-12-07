@@ -1,0 +1,19 @@
+# ninja log v5
+32	1701	7550368685654302	test/CMakeFiles/postfix_test.dir/test_stack.cpp.obj	43b5cddd7e148480
+18	154	7538237515894136	lib/gtest.lib	d1b1ce0b1bf0681b
+16	1770	7538237225919186	test/CMakeFiles/postfix_test.dir/test_main.cpp.obj	aa98889b1f34947d
+11	2833	7538237236508901	gtest/CMakeFiles/gtest.dir/gtest-all.cc.obj	2192fb77a5ac4309
+22	598	7546701140200947	samples/CMakeFiles/sample_postfix.dir/sample_postfix.cpp.obj	a419df738e5b86e6
+41	1741	7550368685876964	test/CMakeFiles/postfix_test.dir/test_tpostfix.cpp.obj	e2cf05151f8bc0e3
+599	840	7546701142128925	bin/sample_postfix.exe	11824dd841958333
+1745	2324	7550368690423750	bin/postfix_test.exe	9a18701297c519dc
+2	1034	7550887840585020	samples/CMakeFiles/sample_postfix.dir/sample_postfix.cpp.obj	a419df738e5b86e6
+1035	1417	7550887843512454	bin/sample_postfix.exe	11824dd841958333
+34	893	7550888150617361	samples/CMakeFiles/sample_postfix.dir/sample_postfix.cpp.obj	a419df738e5b86e6
+894	1189	7550888153040915	bin/sample_postfix.exe	11824dd841958333
+32	907	7550888723400271	samples/CMakeFiles/sample_postfix.dir/sample_postfix.cpp.obj	a419df738e5b86e6
+908	1296	7550888726322485	bin/sample_postfix.exe	11824dd841958333
+26	1005	7550894888857981	samples/CMakeFiles/sample_postfix.dir/sample_postfix.cpp.obj	a419df738e5b86e6
+1042	1262	7550894891125526	bin/sample_postfix.exe	11824dd841958333
+96	805	7550895060348810	samples/CMakeFiles/sample_postfix.dir/sample_postfix.cpp.obj	a419df738e5b86e6
+806	1039	7550895062364078	bin/sample_postfix.exe	11824dd841958333
