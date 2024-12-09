@@ -1,0 +1,6 @@
+C:/Users/ilya_/source/repos/baifffboy/3823B1PR2/lab1_bitset/якимов/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ilya_/source/repos/baifffboy/3823B1PR2/lab1_bitset/якимов/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/ilya_/source/repos/baifffboy/3823B1PR2/lab1_bitset/якимов/build/src/CMakeFiles/set.dir
+C:/Users/ilya_/source/repos/baifffboy/3823B1PR2/lab1_bitset/якимов/build/samples/CMakeFiles/sample_prime_numbers.dir
+C:/Users/ilya_/source/repos/baifffboy/3823B1PR2/lab1_bitset/якимов/build/gtest/CMakeFiles/gtest.dir
+C:/Users/ilya_/source/repos/baifffboy/3823B1PR2/lab1_bitset/якимов/build/test/CMakeFiles/test_set.dir

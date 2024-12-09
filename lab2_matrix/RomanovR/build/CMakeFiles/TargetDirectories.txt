@@ -1,0 +1,11 @@
+/Users/rodionromanov/Desktop/3823B1PR2/lab2_matrix/template/build/CMakeFiles/edit_cache.dir
+/Users/rodionromanov/Desktop/3823B1PR2/lab2_matrix/template/build/CMakeFiles/rebuild_cache.dir
+/Users/rodionromanov/Desktop/3823B1PR2/lab2_matrix/template/build/samples/CMakeFiles/matrix.dir
+/Users/rodionromanov/Desktop/3823B1PR2/lab2_matrix/template/build/samples/CMakeFiles/edit_cache.dir
+/Users/rodionromanov/Desktop/3823B1PR2/lab2_matrix/template/build/samples/CMakeFiles/rebuild_cache.dir
+/Users/rodionromanov/Desktop/3823B1PR2/lab2_matrix/template/build/test/CMakeFiles/test_matrix.dir
+/Users/rodionromanov/Desktop/3823B1PR2/lab2_matrix/template/build/test/CMakeFiles/edit_cache.dir
+/Users/rodionromanov/Desktop/3823B1PR2/lab2_matrix/template/build/test/CMakeFiles/rebuild_cache.dir
+/Users/rodionromanov/Desktop/3823B1PR2/lab2_matrix/template/build/gtest/CMakeFiles/gtest.dir
+/Users/rodionromanov/Desktop/3823B1PR2/lab2_matrix/template/build/gtest/CMakeFiles/edit_cache.dir
+/Users/rodionromanov/Desktop/3823B1PR2/lab2_matrix/template/build/gtest/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,10 @@
+^C:\USERS\ILYA_\SOURCE\REPOS\BAIFFFBOY\3823B1PR2\LAB1_BITSET\ЯКИМОВ\BUILD2\CMAKEFILES\F3C44B4A063F4A2D18354CCA232653CD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ilya_/source/repos/baifffboy/3823B1PR2/lab1_bitset/якимов -BC:/Users/ilya_/source/repos/baifffboy/3823B1PR2/lab1_bitset/якимов/build2 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ilya_/source/repos/baifffboy/3823B1PR2/lab1_bitset/якимов/build2/set.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
