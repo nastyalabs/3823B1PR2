@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/build/gtest",
+  "command": "/usr/bin/g++  -I/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/include -I/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/gtest -g -o CMakeFiles/gtest.dir/gtest-all.cc.o -c /home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/gtest/gtest-all.cc",
+  "file": "/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/gtest/gtest-all.cc"
+},
+{
+  "directory": "/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/build/test",
+  "command": "/usr/bin/g++  -I/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/include -I/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/gtest -g -o CMakeFiles/postfix_test.dir/test_main.cpp.o -c /home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/test/test_main.cpp",
+  "file": "/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/test/test_main.cpp"
+},
+{
+  "directory": "/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/build/test",
+  "command": "/usr/bin/g++  -I/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/include -I/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/gtest -g -o CMakeFiles/postfix_test.dir/test_stack.cpp.o -c /home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/test/test_stack.cpp",
+  "file": "/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/test/test_stack.cpp"
+},
+{
+  "directory": "/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/build/test",
+  "command": "/usr/bin/g++  -I/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/include -I/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/gtest -g -o CMakeFiles/postfix_test.dir/test_tpostfix.cpp.o -c /home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/test/test_tpostfix.cpp",
+  "file": "/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/test/test_tpostfix.cpp"
+},
+{
+  "directory": "/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/build/samples",
+  "command": "/usr/bin/g++  -I/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/include -I/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/gtest -g -o CMakeFiles/sample_postfix.dir/sample_postfix.cpp.o -c /home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/samples/sample_postfix.cpp",
+  "file": "/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/samples/sample_postfix.cpp"
+}
+]

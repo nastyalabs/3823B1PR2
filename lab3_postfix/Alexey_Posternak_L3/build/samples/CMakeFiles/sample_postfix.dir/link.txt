@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/sample_postfix.dir/sample_postfix.cpp.o -o ../bin/sample_postfix 

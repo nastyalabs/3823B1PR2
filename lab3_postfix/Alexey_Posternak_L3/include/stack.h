@@ -34,7 +34,7 @@ public:
 	~Stack() { delete[] begin; };
 	void Push(T a) {
 		if (end - begin == size) {
-			T* _begin = new T[size + 1];
+			T* _begin = new T[size * 2];
 			int values = end - begin;
 			for (size_t i = 0; i < values; i++) {
 				_begin[i] = begin[i];

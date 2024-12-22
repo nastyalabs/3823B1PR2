@@ -1,6 +1,7 @@
 ﻿#ifndef __POSTFIX_H__
 #define __POSTFIX_H__
 
+#pragma once
 #include <string>
 #include "stack.h"
 #include "vector"

@@ -1,0 +1,14 @@
+/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/build/CMakeFiles/edit_cache.dir
+/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/build/CMakeFiles/rebuild_cache.dir
+/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/build/include/CMakeFiles/postfix.dir
+/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/build/include/CMakeFiles/edit_cache.dir
+/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/build/include/CMakeFiles/rebuild_cache.dir
+/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/build/gtest/CMakeFiles/gtest.dir
+/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/build/gtest/CMakeFiles/edit_cache.dir
+/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/build/gtest/CMakeFiles/rebuild_cache.dir
+/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/build/test/CMakeFiles/postfix_test.dir
+/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/build/test/CMakeFiles/edit_cache.dir
+/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/build/test/CMakeFiles/rebuild_cache.dir
+/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/build/samples/CMakeFiles/sample_postfix.dir
+/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/build/samples/CMakeFiles/edit_cache.dir
+/home/aleksey/3823B1PR2/lab3_postfix/Alexey_Posternak_L3/build/samples/CMakeFiles/rebuild_cache.dir
