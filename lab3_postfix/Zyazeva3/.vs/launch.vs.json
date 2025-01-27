@@ -1,0 +1,12 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "sample_postfix.exe (bin\\sample_postfix.exe)",
+      "name": "sample_postfix.exe (bin\\sample_postfix.exe)"
+    }
+  ]
+}
