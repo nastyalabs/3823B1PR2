@@ -29,3 +29,8 @@ int main(int argc, const char* argv[]) {
     std::cout << parser.expr()->toStringTree() << std::endl;
     return 0;
 }
+
+https://github.com/antlr/antlr4/blob/4.6/doc/getting-started.md
+https://github.com/antlr/antlr4/blob/4.6/doc/cpp-target.md
+https://github.com/antlr/antlr4/tree/4.6/runtime/Cpp/demo
+https://github.com/antlr/antlr4/blob/4.6/runtime/Cpp/README.md
